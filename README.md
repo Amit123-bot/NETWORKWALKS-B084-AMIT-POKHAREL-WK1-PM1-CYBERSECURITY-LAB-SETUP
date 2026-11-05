@@ -160,7 +160,7 @@ A shared folder was also configured for transferring required files between the 
 
 The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
 
-Example configuration:
+Configuration:
 
 ```text
 IP Address: 10.0.0.2
@@ -179,7 +179,7 @@ A consistent IP address makes it easier to document the lab and reference the Ka
 
 After completing the initial configuration, a VirtualBox snapshot was created.
 
-Example snapshot name:
+Snapshot name:
 
 ```text
 Week1-Kali-Lab-Setup-Complete
@@ -203,7 +203,7 @@ If a future exercise changes or damages the VM configuration, the machine can be
 | 🧰 Verify Nmap                | `nmap --version`                | Nmap version displayed          |
 | 🔄 Verify snapshot            | Restore snapshot and run `ip a` | Baseline configuration restored |
 
-### Example Results
+### Results
 
 ```text
 IP Address:
